@@ -1,0 +1,95 @@
+# TAB Plugin Configuration - StormPeak Network
+# Plugin by NEZNAMY | v6.0.1
+
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: tab
+  username: root
+  password: ""
+
+placeholderapi-refresh-intervals:
+  default-refresh-interval-milliseconds: 500
+  "%online%": 1000
+  "%luckperms_prefix%": 1000
+
+scoreboard:
+  enabled: true
+  toggle-command: /scoreboard
+  remember-toggle-choice: false
+  use-numbers: false
+  scoreboards:
+    default:
+      display-condition: ""
+      title: "&6&lStormPeak"
+      lines:
+        - ""
+        - "&7Rang: %luckperms_prefix%&r%player_name%"
+        - ""
+        - "&fOnline: &a%online%&f/&a100"
+        - ""
+        - "&7IP: &fplay.stormpeak.net"
+        - ""
+        - "&e&lstormpeak.net"
+
+tablist-name-formatting:
+  enabled: true
+  default-name-format: "%luckperms_prefix%%player_name%"
+
+groups:
+  Legend:
+    tabprefix: "&4&l[Legend] &r"
+    tabsuffix: ""
+    tagprefix: "&4&l[Legend] &r"
+    tagsuffix: ""
+    customtabname: "%player_name%"
+    sortingline: "1"
+  Elite:
+    tabprefix: "&5&l[Elite] &r"
+    tabsuffix: ""
+    tagprefix: "&5&l[Elite] &r"
+    tagsuffix: ""
+    customtabname: "%player_name%"
+    sortingline: "2"
+  MVP:
+    tabprefix: "&b&l[MVP] &r"
+    tabsuffix: ""
+    tagprefix: "&b&l[MVP] &r"
+    tagsuffix: ""
+    customtabname: "%player_name%"
+    sortingline: "3"
+  VIP:
+    tabprefix: "&a&l[VIP] &r"
+    tabsuffix: ""
+    tagprefix: "&a&l[VIP] &r"
+    tagsuffix: ""
+    customtabname: "%player_name%"
+    sortingline: "4"
+  Gost:
+    tabprefix: "&7[Gost] &r"
+    tabsuffix: ""
+    tagprefix: "&7[Gost] &r"
+    tagsuffix: ""
+    customtabname: "%player_name%"
+    sortingline: "5"
+
+header-footer:
+  enabled: true
+  disable-with-api: false
+  default-header:
+    - "&6&lStormPeak Network"
+    - "&7play.stormpeak.net"
+  default-footer:
+    - "&7Igras kot: &f%player_name%"
+    - "&7Online: &a%online%"
+
+per-world-playerlist:
+  enabled: false
+
+bossbar:
+  enabled: false
+
+unlimited-nametag-mode:
+  enabled: true
+  disable-in-spectator-mode: true

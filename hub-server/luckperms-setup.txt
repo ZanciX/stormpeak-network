@@ -1,0 +1,71 @@
+# ============================================
+# LuckPerms Setup - StormPeak Network Hub
+# Zaženi te ukaze v server konzoli po zagonu
+# ============================================
+
+# 1. Ustvari grupe
+lp creategroup gost
+lp creategroup vip
+lp creategroup mvp
+lp creategroup elite
+lp creategroup legend
+
+# 2. Nastavi weight (prioriteta)
+lp group gost setweight 1
+lp group vip setweight 10
+lp group mvp setweight 20
+lp group elite setweight 30
+lp group legend setweight 40
+
+# 3. Nastavi prefikse
+lp group gost meta setprefix "&7[Gost] "
+lp group vip meta setprefix "&a[VIP] "
+lp group mvp meta setprefix "&b[MVP] "
+lp group elite meta setprefix "&5[Elite] "
+lp group legend meta setprefix "&4[Legend] "
+
+# 4. Nastavi display name
+lp group gost meta setdisplayname "&7Gost"
+lp group vip meta setdisplayname "&aVIP"
+lp group mvp meta setdisplayname "&bMVP"
+lp group elite meta setdisplayname "&5Elite"
+lp group legend meta setdisplayname "&4Legend"
+
+# 5. Privzeta skupina = gost
+lp group default parent set gost
+
+# 6. Dedovanje (hierarchy)
+lp group vip parent set gost
+lp group mvp parent set vip
+lp group elite parent set mvp
+lp group legend parent set elite
+
+# 7. Osnovna dovoljenja
+lp group gost permission set minecraft.command.me true
+lp group gost permission set authme.player.login true
+lp group gost permission set authme.player.register true
+lp group gost permission set authme.player.changepassword true
+
+lp group vip permission set essentials.fly true
+lp group vip permission set essentials.nick true
+lp group vip permission set essentials.hat true
+lp group vip permission set essentials.enderchest true
+
+lp group mvp permission set essentials.gamemode.survival true
+lp group mvp permission set essentials.gamemode.creative true
+lp group mvp permission set essentials.tp true
+lp group mvp permission set essentials.tphere true
+
+lp group elite permission set essentials.vanish true
+lp group elite permission set essentials.invsee true
+lp group elite permission set essentials.sudo true
+
+lp group legend permission set luckperms.user.info true
+lp group legend permission set luckperms.group.info true
+
+# 8. Dobi info o grupah
+lp group gost info
+lp group vip info
+lp group mvp info
+lp group elite info
+lp group legend info

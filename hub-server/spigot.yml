@@ -1,0 +1,48 @@
+settings:
+  debug: false
+  bungeecord: false
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  save-user-cache-on-stop-only: false
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: "Posodobite Minecraft na novejso verzijo!"
+  outdated-server: "Preklopi na verzijo {0}!"
+  restart: Server se zaganja, kmalu se vrnemo!
+advancements:
+  disable-saving: false
+  disabled: []
+stats:
+  disable-saving: false
+  forced-stats: {}
+world-settings:
+  default:
+    below-zero-generation-in-existing-chunks: true
+    verbose: false
+    enable-zombie-pigmen-portal-spawns: false
+    item-despawn-rate: 6000
+    view-distance: default
+    simulation-distance: default
+    thunder-chance: 100000
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    mob-spawn-range: 0
+    anti-xray:
+      enabled: false

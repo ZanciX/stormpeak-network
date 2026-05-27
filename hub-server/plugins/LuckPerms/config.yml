@@ -1,0 +1,100 @@
+# LuckPerms Configuration - StormPeak Network
+
+server: hub
+
+storage-method: h2
+
+data:
+  address: localhost
+  database: minecraft
+  username: root
+  password: ''
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    connection-timeout: 5000
+    statement-timeout: 30000
+    keepalive-time: 0
+    properties:
+      useUnicode: true
+      characterEncoding: utf8
+  table-prefix: luckperms_
+  update-polling-interval: 2
+  sync-minutes: -1
+
+messaging-service: none
+
+auto-save-interval: 6
+save-uuid-cache: true
+watch-files: true
+
+sync-task-interval-minutes: 3
+
+command-settings:
+  log-notify: true
+  
+permission-registry-enabled: true
+
+meta-formatting:
+  prefix:
+    format:
+      - "highest"
+    start-spacer: ""
+    middle-spacer: " "
+    end-spacer: ""
+  suffix:
+    format:
+      - "highest"
+    start-spacer: ""
+    middle-spacer: " "
+    end-spacer: ""
+
+# Ranks (groups) are set up via commands below
+# Use these commands in-game or console after first start:
+#
+# GROUPS SETUP:
+# /lp creategroup gost
+# /lp creategroup vip
+# /lp creategroup mvp
+# /lp creategroup elite
+# /lp creategroup legend
+#
+# WEIGHTS (priority):
+# /lp group gost setweight 1
+# /lp group vip setweight 10
+# /lp group mvp setweight 20
+# /lp group elite setweight 30
+# /lp group legend setweight 40
+#
+# PREFIXES:
+# /lp group gost meta setprefix "&7[Gost] "
+# /lp group vip meta setprefix "&a[VIP] "
+# /lp group mvp meta setprefix "&b[MVP] "
+# /lp group elite meta setprefix "&5[Elite] "
+# /lp group legend meta setprefix "&4[Legend] "
+#
+# COLORS (display name):
+# /lp group gost meta setdisplayname "&7Gost"
+# /lp group vip meta setdisplayname "&aVIP"
+# /lp group mvp meta setdisplayname "&bMVP"
+# /lp group elite meta setdisplayname "&5Elite"
+# /lp group legend meta setdisplayname "&4Legend"
+#
+# DEFAULT GROUP:
+# /lp group default parent set gost
+#
+# INHERITANCE:
+# /lp group vip parent set gost
+# /lp group mvp parent set vip
+# /lp group elite parent set mvp
+# /lp group legend parent set elite
+#
+# BASIC PERMISSIONS per group:
+# /lp group gost permission set essentials.spawn true
+# /lp group gost permission set authme.player.login true
+# /lp group gost permission set authme.player.register true
+# /lp group vip permission set essentials.fly true
+# /lp group mvp permission set essentials.nick true
+# /lp group elite permission set essentials.gamemode true
+# /lp group legend permission set luckperms.* false
