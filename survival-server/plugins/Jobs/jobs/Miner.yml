@@ -1,0 +1,34 @@
+fullName: Rudar
+name: Rudar
+shortname: R
+description: "Kopaj rude in zasluzi!"
+max-level: 100
+max-slots: 0
+
+Chat-Display: "&8[&7Rudar&8]"
+prefix: "&8[&7R&8]"
+gui-item: DIAMOND_PICKAXE
+gui-enchanted: true
+
+income:
+  BREAK:
+    STONE: {income: 0.1, exp: 1}
+    COAL_ORE: {income: 1.5, exp: 5}
+    DEEPSLATE_COAL_ORE: {income: 1.7, exp: 6}
+    IRON_ORE: {income: 2.5, exp: 8}
+    DEEPSLATE_IRON_ORE: {income: 3.0, exp: 10}
+    GOLD_ORE: {income: 5.0, exp: 15}
+    DEEPSLATE_GOLD_ORE: {income: 6.0, exp: 18}
+    DIAMOND_ORE: {income: 15.0, exp: 30}
+    DEEPSLATE_DIAMOND_ORE: {income: 18.0, exp: 35}
+    EMERALD_ORE: {income: 20.0, exp: 40}
+    DEEPSLATE_EMERALD_ORE: {income: 25.0, exp: 45}
+    ANCIENT_DEBRIS: {income: 50.0, exp: 100}
+    NETHERITE_ORE: {income: 50.0, exp: 100}
+    REDSTONE_ORE: {income: 2.0, exp: 7}
+    LAPIS_ORE: {income: 3.0, exp: 10}
+
+levelup-commands:
+  10: broadcast &6{player} je postal Level 10 Rudar!
+  50: broadcast &6{player} je postal Level 50 Rudar!
+  100: broadcast &4{player} je Master Rudar!

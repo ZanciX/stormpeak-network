@@ -1,0 +1,46 @@
+missions:
+  mine_stone:
+    displayName: "&7Rudar I"
+    description: "&7Izkopaj 500 kamna"
+    type: BREAK
+    data: STONE
+    required: 500
+    reward:
+      money: 100
+      exp: 50
+  mine_iron:
+    displayName: "&fRudar II"
+    description: "&7Izkopaj 200 zeleza"
+    type: BREAK
+    data: IRON_ORE
+    required: 200
+    reward:
+      money: 500
+      exp: 150
+  farm_wheat:
+    displayName: "&eKmet I"
+    description: "&7Zberi 500 psenice"
+    type: BREAK
+    data: WHEAT
+    required: 500
+    reward:
+      money: 200
+      exp: 100
+  kill_zombies:
+    displayName: "&2Borec I"
+    description: "&7Ubij 100 zombijev"
+    type: KILL
+    data: ZOMBIE
+    required: 100
+    reward:
+      money: 300
+      exp: 100
+  fish_fish:
+    displayName: "&3Ribar I"
+    description: "&7Ujemi 50 rib"
+    type: FISH
+    data: COD
+    required: 50
+    reward:
+      money: 400
+      exp: 120

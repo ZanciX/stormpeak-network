@@ -1,0 +1,11 @@
+# DecentHolograms - StormPeak
+settings:
+  update-interval: 20
+  update-range: 48
+  default-facing: SOUTH
+  allow-placeholders: true
+  click-range: 5.0
+  visibility:
+    update-interval: 20
+
+down-origin: false

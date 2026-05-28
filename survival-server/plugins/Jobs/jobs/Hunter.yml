@@ -1,0 +1,29 @@
+fullName: Lovec
+name: Lovec
+shortname: L
+description: "Ubijaj moby in zasluzi!"
+max-level: 100
+max-slots: 0
+
+Chat-Display: "&c[&4Lovec&c]"
+prefix: "&c[&4L&c]"
+gui-item: BOW
+gui-enchanted: true
+
+income:
+  KILL:
+    ZOMBIE: {income: 1.0, exp: 4}
+    SKELETON: {income: 1.5, exp: 5}
+    SPIDER: {income: 1.0, exp: 4}
+    CREEPER: {income: 2.0, exp: 8}
+    ENDERMAN: {income: 3.0, exp: 12}
+    BLAZE: {income: 4.0, exp: 15}
+    WITHER_SKELETON: {income: 5.0, exp: 20}
+    GUARDIAN: {income: 4.0, exp: 15}
+    SLIME: {income: 0.5, exp: 2}
+    WITCH: {income: 3.0, exp: 12}
+    PHANTOM: {income: 2.5, exp: 10}
+    PIGLIN_BRUTE: {income: 5.0, exp: 20}
+    ELDER_GUARDIAN: {income: 25.0, exp: 50}
+    WITHER: {income: 100.0, exp: 200}
+    ENDER_DRAGON: {income: 500.0, exp: 1000}

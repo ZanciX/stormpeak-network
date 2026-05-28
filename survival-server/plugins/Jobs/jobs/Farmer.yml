@@ -1,0 +1,28 @@
+fullName: Kmet
+name: Kmet
+shortname: K
+description: "Prideluj hrano in zasluzi!"
+max-level: 100
+max-slots: 0
+
+Chat-Display: "&2[&aKmet&2]"
+prefix: "&2[&aK&2]"
+gui-item: WHEAT
+gui-enchanted: false
+
+income:
+  BREAK:
+    WHEAT: {income: 0.5, exp: 3}
+    CARROTS: {income: 0.5, exp: 3}
+    POTATOES: {income: 0.5, exp: 3}
+    BEETROOTS: {income: 0.5, exp: 3}
+    SUGAR_CANE: {income: 0.3, exp: 2}
+    PUMPKIN: {income: 1.0, exp: 5}
+    MELON: {income: 0.8, exp: 4}
+    COCOA: {income: 0.7, exp: 3}
+    NETHER_WART: {income: 1.5, exp: 6}
+  BREED:
+    COW: {income: 2.0, exp: 5}
+    PIG: {income: 1.5, exp: 4}
+    SHEEP: {income: 1.5, exp: 4}
+    CHICKEN: {income: 1.0, exp: 3}

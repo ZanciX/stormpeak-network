@@ -1,0 +1,33 @@
+scoreboard:
+  enabled: true
+  use-numbers: false
+  scoreboards:
+    default:
+      title: "&b&lStormPeak &7| &bSkyblock"
+      lines:
+        - ""
+        - " &7Rang: %luckperms_prefix%"
+        - " &7Ime: &f%player_name%"
+        - ""
+        - " &fOtok: &b%iridiumskyblock_island_name%"
+        - " &fVrednost: &6%iridiumskyblock_island_value%"
+        - " &fOnline: &a%server_online%"
+        - ""
+        - " &e&lstormpeak.net"
+        - ""
+header-footer:
+  enabled: true
+  default-header:
+    - ""
+    - "&b&lS T O R M P E A K"
+    - "&7Skyblock"
+    - ""
+  default-footer:
+    - ""
+    - "&7Online: &a%server_online%&7/&a100"
+    - ""
+tablist-name-formatting:
+  enabled: true
+  default-name-format: "%luckperms_prefix%%player_name%"
+unlimited-nametag-mode:
+  enabled: true

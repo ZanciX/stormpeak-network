@@ -1,0 +1,78 @@
+# EssentialsX - StormPeak Survival
+
+ops-name-color: '4'
+nickname-prefix: '~'
+max-nick-length: 15
+change-displayname: true
+add-prefix-in-playerlist: true
+
+newbies:
+  kit: 'starter'
+  join-message: '&6&lStormPeak &7» &aDobrodosli, &f{DISPLAYNAME}&a!'
+  announce-format: '&7[&a+&7] &f{DISPLAYNAME} &7se je priduzil!'
+
+spawn-on-join: false
+back-on-death: true
+teleport-safety: true
+teleport-invincibility: 3
+
+money:
+  format: '##,###.## Coin'
+  starting-balance: 500
+
+kits:
+  starter:
+    delay: 0
+    items:
+      - iron_sword 1
+      - iron_pickaxe 1
+      - iron_axe 1
+      - iron_shovel 1
+      - bread 16
+      - torch 32
+  daily:
+    delay: 86400
+    items:
+      - bread 16
+      - iron_ingot 8
+      - coal 16
+  vip:
+    delay: 86400
+    items:
+      - diamond_sword 1
+      - golden_apple 4
+      - bread 32
+      - diamond_pickaxe 1
+  mvp:
+    delay: 86400
+    items:
+      - netherite_sword 1
+      - golden_apple 8
+      - bread 64
+      - netherite_pickaxe 1
+  elite:
+    delay: 86400
+    items:
+      - netherite_sword 1 32
+      - golden_apple 16
+      - diamond_block 4
+  legend:
+    delay: 86400
+    items:
+      - netherite_sword 1 sharpness:5
+      - totem_of_undying 2
+      - diamond_block 8
+
+protect:
+  prevent:
+    creeper-explosion: true
+    tnt-explosion: false
+    tnt-playerdamage: false
+    pvp: false
+    
+homes:
+  default-allowed: 1
+  vip-allowed: 3
+  mvp-allowed: 5
+  elite-allowed: 8
+  legend-allowed: 15

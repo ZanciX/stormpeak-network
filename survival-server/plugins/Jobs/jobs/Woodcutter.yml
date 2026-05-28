@@ -1,0 +1,24 @@
+fullName: Drvar
+name: Drvar
+shortname: D
+description: "Seci drevesa in zasluzi!"
+max-level: 100
+max-slots: 0
+
+Chat-Display: "&e[&6Drvar&e]"
+prefix: "&e[&6D&e]"
+gui-item: IRON_AXE
+gui-enchanted: false
+
+income:
+  BREAK:
+    OAK_LOG: {income: 0.5, exp: 3}
+    SPRUCE_LOG: {income: 0.5, exp: 3}
+    BIRCH_LOG: {income: 0.5, exp: 3}
+    JUNGLE_LOG: {income: 0.7, exp: 4}
+    ACACIA_LOG: {income: 0.6, exp: 3}
+    DARK_OAK_LOG: {income: 0.6, exp: 3}
+    MANGROVE_LOG: {income: 0.7, exp: 4}
+    CHERRY_LOG: {income: 0.8, exp: 5}
+    CRIMSON_STEM: {income: 1.0, exp: 5}
+    WARPED_STEM: {income: 1.0, exp: 5}

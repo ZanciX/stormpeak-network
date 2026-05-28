@@ -1,0 +1,20 @@
+# Citizens - StormPeak Hub NPCs
+npc:
+  default:
+    gamemode: 2
+    look-close:
+      enabled: true
+      range: 5
+    skin-update-frequency: -1
+    nameplate-prefix: ""
+  fish: false
+
+storage:
+  type: yaml
+  use-database: false
+
+settings:
+  notify-on-remove: false
+  notify-on-transform: false
+  locale: ""
+  debug-mode: false

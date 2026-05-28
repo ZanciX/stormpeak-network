@@ -1,0 +1,26 @@
+# Jobs Reborn - StormPeak Survival
+
+General:
+  enabled: true
+  max-jobs: 2
+  economy-batch-delay: 5
+  save-period: 10
+  
+  broadcast:
+    on-join: false
+    on-levelup: true
+    levelup-message: "&6&lStormPeak &7» &f{player} &7je dosegel level &6{level} &7v sluzbi &a{job}&7!"
+
+  scoreboard:
+    enabled: false
+
+  gui:
+    enabled: true
+    title: "&8&lPoklici"
+    
+PaymentMethods:
+  money:
+    enabled: true
+    currency-name: "Coin"
+  exp:
+    enabled: true

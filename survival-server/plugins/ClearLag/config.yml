@@ -1,0 +1,30 @@
+# ClearLag - StormPeak Survival
+enable-auto-remove: true
+auto-remove-delay: 300
+auto-remove-warn-times:
+  - 60
+  - 30
+  - 10
+  - 5
+  - 3
+  - 2
+  - 1
+remove-entities:
+  - dropped_items
+  - experience_orbs
+warn-message: "&c[ClearLag] &7Cistenje itemov v &c{time} &7sekundah!"
+remove-message: "&c[ClearLag] &7Odstranjeno &c{count} &7itemov!"
+
+chunk-limiter:
+  enabled: true
+  entities-per-chunk: 50
+
+enable-ram-cleaner: false
+
+per-world:
+  world:
+    enabled: true
+  world_nether:
+    enabled: true
+  world_the_end:
+    enabled: true

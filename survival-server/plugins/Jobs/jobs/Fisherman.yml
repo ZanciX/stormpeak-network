@@ -1,0 +1,20 @@
+fullName: Ribar
+name: Ribar
+shortname: Ri
+description: "Lovij ribe in zasluzi!"
+max-level: 100
+max-slots: 0
+
+Chat-Display: "&3[&bRibar&3]"
+prefix: "&3[&bRi&3]"
+gui-item: FISHING_ROD
+gui-enchanted: false
+
+income:
+  FISH:
+    COD: {income: 1.0, exp: 3}
+    SALMON: {income: 1.5, exp: 4}
+    TROPICAL_FISH: {income: 2.0, exp: 5}
+    PUFFERFISH: {income: 2.5, exp: 6}
+    treasure: {income: 5.0, exp: 10}
+    junk: {income: 0.1, exp: 1}

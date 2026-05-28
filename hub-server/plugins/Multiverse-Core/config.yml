@@ -1,0 +1,16 @@
+# Multiverse-Core - StormPeak Hub
+world-name-format: '%world%'
+teleport-intercept: true
+first-spawn-override: true
+first-spawn-location: world_hub
+enforce-access: false
+enforce-gamemode: true
+auto-load: true
+auto-purge: false
+
+display-permissions-failures: false
+global-debug: 0
+update-check: false
+
+messaging:
+  prefix: '&8[&6MV&8] '

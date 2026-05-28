@@ -1,0 +1,24 @@
+fullName: Graditelj
+name: Graditelj
+shortname: G
+description: "Postavljaj bloke in zasluzi!"
+max-level: 100
+max-slots: 0
+
+Chat-Display: "&9[&bGraditelj&9]"
+prefix: "&9[&bG&9]"
+gui-item: BRICKS
+gui-enchanted: false
+
+income:
+  PLACE:
+    STONE_BRICKS: {income: 0.2, exp: 2}
+    BRICKS: {income: 0.2, exp: 2}
+    WOOD: {income: 0.1, exp: 1}
+    PLANKS: {income: 0.1, exp: 1}
+    GLASS: {income: 0.3, exp: 3}
+    TERRACOTTA: {income: 0.2, exp: 2}
+    CONCRETE: {income: 0.3, exp: 3}
+    QUARTZ_BLOCK: {income: 0.5, exp: 4}
+    POLISHED_BASALT: {income: 0.3, exp: 3}
+    DEEPSLATE_BRICKS: {income: 0.4, exp: 4}

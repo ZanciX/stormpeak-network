@@ -1,0 +1,12 @@
+# PlaceholderAPI - StormPeak
+auto_install_expansions: false
+auto_reload_expansions: true
+
+expansions:
+  Player:
+    enabled: true
+  Server:
+    enabled: true
+
+check_updates: false
+cloud_enabled: false

@@ -1,0 +1,58 @@
+# EssentialsX - StormPeak Hub
+ops-name-color: '4'
+nickname-prefix: '~'
+max-nick-length: 15
+change-displayname: true
+add-prefix-in-playerlist: true
+add-suffix-in-playerlist: false
+disablePrefix: false
+chat:
+  radius: 0
+  format: '<{DISPLAYNAME}> {MESSAGE}'
+  shout: '!'
+  question: '?'
+
+newbies:
+  kit: ''
+  join-message: '&6&lStormPeak &7» &aDobrodosli, &f{DISPLAYNAME}&a!'
+  announce-format: '&7[&a+&7] &f{DISPLAYNAME} &7se je priduzil!'
+
+# Startup messages
+startup-message: false
+
+ops-alert-on-connect: true
+
+allow-old-id-signs: false
+
+per-world-tps: false
+
+spawn-on-join: true
+teleport-safety: true
+teleport-invincibility: 1
+
+back-on-death: false
+
+home-on-spawn: false
+spawn-command: false
+
+money:
+  format: '##,###.## Coin'
+  starting-balance: 0
+
+disabled-commands:
+  - jails
+  - jail
+  - delwarp
+  - setwarp
+  - warp
+
+protect:
+  prevent:
+    piston-move: false
+    creeper-explosion: true
+    tnt-explosion: true
+    tnt-playerdamage: true
+    creeper-playerdamage: true
+    pvp: true
+
+command-cooldowns: {}

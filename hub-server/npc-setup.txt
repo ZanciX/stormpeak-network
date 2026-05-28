@@ -1,0 +1,53 @@
+# ============================================
+# Citizens NPC Setup - StormPeak Hub
+# Zaženi te ukaze v-game kot OP
+# ============================================
+
+# 1. Pojdi na lokacijo kjer želiš NPC (Hub spawn area)
+
+# === NPC: Survival ===
+# Postavi se kamor hoces Survival NPC
+/npc create &6&lSurvival --type PLAYER
+/npc skin Notch
+/npc look
+/trait actions
+/npc command add -l left "server survival"
+/npc command add -l right "server survival"
+
+# === NPC: SkyPVP ===
+/npc create &c&lSkyPVP --type PLAYER
+/npc skin Dream  
+/npc look
+/trait actions
+/npc command add -l left "server skypvp"
+/npc command add -l right "server skypvp"
+
+# === NPC: Skyblock ===
+/npc create &b&lSkyblock --type PLAYER
+/npc skin Steve
+/npc look
+/trait actions
+/npc command add -l left "server skyblock"
+/npc command add -l right "server skyblock"
+
+# ============================================
+# DecentHolograms - Holograms nad NPC
+# ============================================
+
+# Hologram nad Survival NPC (stoj točno nad NPC, 2.5 bloka višje):
+/dh create hologram_survival
+/dh line add hologram_survival &6&l⚔ SURVIVAL ⚔
+/dh line add hologram_survival &7Klasicno prezivetje
+/dh line add hologram_survival &aKlikni za vstop!
+
+# Hologram nad SkyPVP NPC:
+/dh create hologram_skypvp
+/dh line add hologram_skypvp &c&l✦ SKY PVP ✦
+/dh line add hologram_skypvp &7Boj v oblakih
+/dh line add hologram_skypvp &cKlikni za vstop!
+
+# Hologram nad Skyblock NPC:
+/dh create hologram_skyblock
+/dh line add hologram_skyblock &b&l◆ SKYBLOCK ◆
+/dh line add hologram_skyblock &7Zgradi si otok
+/dh line add hologram_skyblock &bKlikni za vstop!

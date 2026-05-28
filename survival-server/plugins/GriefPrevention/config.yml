@@ -1,0 +1,45 @@
+# GriefPrevention - StormPeak Survival
+
+GriefPrevention:
+  Claims:
+    Mode: Survival
+    InitialBlocks: 500
+    BlocksAccruedPerHour: 100
+    MaxAccruedBlocks: 50000
+    MaxDepth: 0
+    AutomaticNewPlayerProtectionDays: 3
+    AllowTrappedSelfRescue: true
+    AllowUnclaimInCreative: false
+    EnableSmartGriefPrevention: true
+    ProtectFreshSpawns: true
+    NewPlayerAttackAlertEnabled: true
+    ChangeClaimCreationRequiresPermission: false
+    ExpirationDays: 60
+    ExpirationExemptPermission: "griefprevention.expiration.exempt"
+  PvP:
+    ProtectFreshSpawns: true
+    PunishLogout: true
+    AllowCombatInClaims: true
+    AllowCombatBetweenPlayersInAdventure: false
+  Economy:
+    ClaimBlocksPurchaseCost: 0
+    ClaimBlocksSellValue: 0
+  Siege:
+    Enabled: false
+  Filing:
+    LogAbandons: true
+    LogCreates: true
+    LogDeletes: true
+    LogTransfers: true
+    LogClaims: true
+    LogNaturallyBrokenBlocks: false
+    LogAccess: false
+  Spam:
+    HandleSpam: true
+    BanOffenders: false
+    MonitorSlashCommands: /ban;/vanish;/tp;/kill
+    AllowedIpAddresses: ""
+    BannedWords: []
+  OtherPlugins:
+    UseDynMap: false
+    UseWorldGuard: false

@@ -1,0 +1,22 @@
+# ChestShop - StormPeak Survival
+
+unlimited-admin-shop: true
+allow-sign-chest-break: false
+allow-access-with-existing-sign: false
+protect-sign: false
+protect-chest: true
+
+shop-limits:
+  player: 50
+  admin: -1
+
+currency: Coin
+currency-symbol: C
+
+messages:
+  prefix: "&8[&6Shop&8]&r "
+  buy-success: "&aSi kupil {0} x &f{1}&a za &6{2} Coin&a!"
+  sell-success: "&aSi prodal {0} x &f{1}&a za &6{2} Coin&a!"
+  not-enough-money: "&cNimas dovolj Coinsov! Rabis &6{0} Coin&c."
+  not-enough-items: "&cV shopu ni dovolj blaga."
+  inventory-full: "&cTvoj inventory je poln!"

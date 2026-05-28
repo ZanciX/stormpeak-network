@@ -1,0 +1,23 @@
+# StormPeak Hub Worlds
+worlds:
+  world_hub:
+    hidden: false
+    alias: "&6Hub"
+    color: GOLD
+    style: NORMAL
+    pvp: false
+    scale: 1.0
+    respawn-world: world_hub
+    allow-weather: false
+    difficulty: PEACEFUL
+    animals:
+      spawn: false
+    monsters:
+      spawn: false
+    currency: -1
+    price: 0.0
+    hunger: false
+    auto-load: true
+    gamemode: ADVENTURE
+    bed-respawn: true
+    allowFlight: false

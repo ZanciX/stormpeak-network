@@ -1,27 +1,20 @@
-# TAB Plugin - StormPeak Hub (FIXED)
-# NEZNAMY TAB v6.0.1
-
-mysql:
-  enabled: false
+# TAB - StormPeak Survival
 
 scoreboard:
   enabled: true
-  toggle-command: /scoreboard
-  remember-toggle-choice: false
   use-numbers: false
   scoreboards:
     default:
-      display-condition: ""
-      title: "&6&lS&e&lt&6&lo&e&lr&6&lm&e&lP&6&le&e&la&6&lk"
+      title: "&6&lStormPeak &7| &aSurvival"
       lines:
         - ""
-        - " &7&m        &r "
         - " &7Rang: %luckperms_prefix%"
         - " &7Ime: &f%player_name%"
-        - " &7&m        &r "
+        - ""
+        - " &fBalance: &6%vault_eco_balance_formatted% C"
+        - " &fPosel: &a%jobsr_currentjobs%"
         - " &fOnline: &a%server_online%"
-        - " &fIP: &bplay.stormpeak.net"
-        - " &7&m        &r "
+        - ""
         - " &e&lstormpeak.net"
         - ""
 
@@ -30,11 +23,11 @@ header-footer:
   default-header:
     - ""
     - "&6&lS T O R M P E A K"
-    - "&7Network"
+    - "&aSurvival"
     - ""
   default-footer:
     - ""
-    - "&7Igras kot: &f%player_name%"
+    - "&7Saldo: &6%vault_eco_balance_formatted% Coin"
     - "&7Online: &a%server_online%&7/&a100"
     - ""
 
@@ -45,9 +38,3 @@ tablist-name-formatting:
 unlimited-nametag-mode:
   enabled: true
   disable-in-spectator-mode: true
-
-per-world-playerlist:
-  enabled: false
-
-bossbar:
-  enabled: false

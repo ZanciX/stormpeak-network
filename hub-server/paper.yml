@@ -1,0 +1,10 @@
+settings:
+  async-chunks:
+    threads: -1
+  chat-thread-check: false
+  load-permissions-yml-before-plugins: true
+  use-display-name-in-quit-message: false
+messages:
+  kick:
+    authentication-servers-down: "StormPeak je offline rezim streznik."
+    connection-throttle: "Prosim, pocakaj pred ponovnim priklopom."

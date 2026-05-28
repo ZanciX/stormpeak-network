@@ -1,0 +1,10 @@
+server: skyblock
+storage-method: h2
+data:
+  address: localhost
+  database: luckperms_skyblock
+  username: root
+  password: ''
+  table-prefix: luckperms_
+sync-task-interval-minutes: 3
+watch-files: true

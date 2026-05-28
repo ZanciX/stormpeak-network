@@ -1,0 +1,142 @@
+# AuthMe Configuration - StormPeak Network (Cracked Server)
+# AuthMe 6.0.0 | online-mode: false
+
+DataSource:
+  backend: SQLite
+  database: authme
+  username: authme
+  password: ""
+  mySQLHost: 127.0.0.1
+  mySQLPort: 3306
+  mySQLTablename: authme
+  mySQLColumnName: username
+  mySQLColumnPassword: password
+  mySQLColumnIp: ip
+  mySQLColumnLastLogin: lastlogin
+  mySQLColumnSalt: salt
+  mySQLColumnGroup: groupId
+  mySQLColumnEmail: email
+
+settings:
+  sessions:
+    enabled: true
+    timeout: 10
+  security:
+    # CRACKED SERVER - online-mode=false
+    unsafePasswords:
+      - "123456"
+      - "password"
+      - "qwerty"
+      - "abc123"
+      - "111111"
+      - "minecraft"
+    minPasswordLength: 6
+    maxPasswordLength: 30
+    passwordHash: BCRYPT
+    doubleMD5SaltLength: 8
+    bCryptLog2Round: 10
+    stop-server-on-unreadable-password-hash: false
+  restrictions:
+    allowedPasswordCharacters: '[a-zA-Z0-9!_@#$%^&*-]'
+    enablePasswordConfirmation: false
+    getRegisteredGroup: ""
+    logAddedPlayer: false
+    maxLoginPerIp: 0
+    maxRegPerIp: 2
+    noTeleport: false
+    hideTablistBeforeLogin: true
+    protectInventoryBeforeLogIn: true
+    allowAllCommandsIfRegOrLogin: false
+    allowCommands:
+      - /login
+      - /l
+      - /register
+      - /reg
+      - /email
+      - /captcha
+  registration:
+    enabled: true
+    type: PASSWORD
+    forceSingleSession: true
+    forceRegKick: false
+    forceRegLogin: false
+    registerSecondArg: false
+    useEmailRegistration: false
+    enablePasswordConfirmation: false
+    doubleEmailCheck: false
+    emailRegistration: false
+    skipEmailActivation: false
+    enableConfirmationMessage: true
+  loginOptions:
+    enablePasswordConfirmation: false
+    sendPlayerTo: ""
+  GameMode:
+    defaultRegisteredPlayerGameMode: 2
+  SaveQuitLocation: false
+  useWelcomeMessage: true
+  kickPlayersBeforeMaintenance: false
+  broadcast:
+    enable_broadcast: false
+
+Email:
+  mailSMTP: smtp.gmail.com
+  mailPort: 465
+  mailAccount: ""
+  mailPassword: ""
+  mailSenderName: StormPeak
+  mailSubject: "StormPeak - Email verifikacija"
+  isGmail: true
+  emailOauth2Token: ""
+  emailPoolSize: 1
+  allowPasswordRecoveryByEmail: false
+
+# Messages language
+settings.messagesLanguage: en
+
+Converter:
+  Rakamak:
+    use: false
+  CrazyLogin:
+    use: false
+  RoyalAuth:
+    use: false
+
+Protection:
+  enableProtection: true
+  enableAntiBot: true
+  antiBotSensitivity: 10
+  antiBotDuration: 10
+  maxLoginTry: 5
+  passwordTries: 5
+  tempBanLength: 30
+  enablePermissionCheck: false
+  banByIp: false
+  antiBot:
+    enableAntiBot: true
+    antiBotSensitivity: 10
+    antiBotDuration: 10
+    enableKickWhenAntiBot: true
+
+Purge:
+  useAutoPurge: false
+  daysBeforePurge: 60
+  purgePlayerDat: false
+  purgeLimitedCreative: false
+  purgeEssentialsFile: false
+  purgeAntiXRayFile: false
+  purgePermissionsFile: false
+
+Hooks:
+  bungeecord: false
+  bungeecordNotifyAfterLogin: false
+  sendBungeeGreenMailMessage: false
+  bungee-port: 25569
+  disableSocialSpy: false
+  useEssentialsMotd: false
+
+# Teleport settings
+settings.teleportUnAuthed: true
+settings.applyBlindEffect: false
+
+# Cracked server specific
+settings.forceVaultPlugin: false

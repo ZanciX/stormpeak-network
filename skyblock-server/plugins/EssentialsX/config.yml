@@ -1,0 +1,9 @@
+newbies:
+  join-message: '&6&lStormPeak &7» &aDobrodosli na Skyblock, &f{DISPLAYNAME}&a!'
+  announce-format: '&7[&a+&7] &f{DISPLAYNAME} &7se je priduzil!'
+money:
+  format: '##,###.## Coin'
+  starting-balance: 250
+back-on-death: false
+spawn-on-join: true
+teleport-safety: true
